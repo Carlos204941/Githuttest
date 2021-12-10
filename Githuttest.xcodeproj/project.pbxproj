@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A31FC2202761C203004A8E21 /* entrada.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FC21F2761C203004A8E21 /* entrada.swift */; };
 		A334760A275878A000673787 /* GithuttestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3347609275878A000673787 /* GithuttestApp.swift */; };
 		A334760C275878A000673787 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A334760B275878A000673787 /* ContentView.swift */; };
 		A334760E275878A200673787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A334760D275878A200673787 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A31FC21F2761C203004A8E21 /* entrada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = entrada.swift; sourceTree = "<group>"; };
 		A3347606275878A000673787 /* Githuttest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Githuttest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3347609275878A000673787 /* GithuttestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithuttestApp.swift; sourceTree = "<group>"; };
 		A334760B275878A000673787 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 				A334760B275878A000673787 /* ContentView.swift */,
 				A334760D275878A200673787 /* Assets.xcassets */,
 				A334760F275878A200673787 /* Preview Content */,
+				A31FC21F2761C203004A8E21 /* entrada.swift */,
 			);
 			path = Githuttest;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				A334760C275878A000673787 /* ContentView.swift in Sources */,
 				A334760A275878A000673787 /* GithuttestApp.swift in Sources */,
+				A31FC2202761C203004A8E21 /* entrada.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +276,12 @@
 				DEVELOPMENT_TEAM = 9A83Y2WZ8U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMainNibFile = Main;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = launchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,9 +308,12 @@
 				DEVELOPMENT_TEAM = 9A83Y2WZ8U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMainNibFile = Main;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = launchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
