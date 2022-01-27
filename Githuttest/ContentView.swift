@@ -13,7 +13,7 @@ struct ContentView: View {
             .font(.title)
             .fontWeight(.bold)
             .foregroundColor(Color.green)
-            .padding(10.0)
+            .padding(20.0)
             
             
             
